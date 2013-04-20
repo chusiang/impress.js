@@ -192,7 +192,14 @@
 		<q>
 			歡迎來到 Drupal 高雄小聚。 <br />
 
-			<br /> <br /> <br /> <br /> <br />
+			 
+			<a href="http://drupaltaiwan.org/" target="_blank"><img src="images/2013-04-20-drupal-logo.png" align="left" alt="drupal logo" title="drupal logo" /></a> <br />
+
+			<br /><br />
+			  
+				&nbsp; ... <a href="http://www.drupalla.com/" target="_blank"><img src="images/2013-04-20-drupalla-logo.png" alt="drupalla logo" title="drupalla logo" /></a> <br />
+
+				<br />
 
 			<center>
 				(聽過 Multi-site 的請舉手！)
@@ -262,9 +269,9 @@
 
 		劣勢： <br />
 
-            - 須懂 DNS 架構 (A, CNAME, NS)。 <br />
-            - 須略懂 Web server 架構。 <br />
-			- 需擁有自己的網域名稱 (Domain name)。
+            - 須懂 <a href="http://linux.vbird.org/linux_server/0350dns.php#theory">DNS</a> 架構 (<a href="http://linux.vbird.org/linux_server/0350dns.php#DNS_master_rr">A, CNAME, NS</a>)。 <br />
+            - 須略懂 <a href="http://linux.vbird.org/linux_server/0360apache.php">Web server</a> 架構。 <br />
+			- 需擁有自己的<a href="http://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D#">網域名稱 (Domain name)</a>。
 		
 		</span>
 
@@ -287,7 +294,7 @@
     -->
     <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
 		<p>
-			將多個網域名稱 (Domain name) 指到同一個 Drupal，並設定對應的 Database, Virtual host [1] 即可。 <br />
+			將多個 Domain name 指到同一個 Drupal，並設定對應的 Database, <a href="http://zh.wikipedia.org/wiki/%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA">Virtual host</a> [1] 即可。 <br />
 
 			<br />
 
@@ -317,18 +324,13 @@
     -->
     <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
 			<p>
-				實作環境: <br />
+				實作環境 (LAMP) <br />
 				<br />
-				- <b class="scaling"><a href="http://wiki.debian.org/LaMp" target="_blank">Debian 6</a></b> <br />
-				- <b class="positioning">Apache</b> <br />
-				- <b class="rotating">MySQL</b> <br />
-				<!--
-				- <b class="positioning">Domain name</b> <br />
-				-->
+				&nbsp; <a href="http://wiki.debian.org/LaMp" target="_blank">Debian 6 (GNU/<font color="#ff0000">L</font>inux)</a> <br />
+				&nbsp; <b class="positioning"><font color="#ff0000">A</font>pache 2.2.16</b> <br />
+				&nbsp; <b class="rotating"><font color="#ff0000">M</font>ySQL 5.1.66</b> <br />
+				&nbsp; <b class="scaling"><font color="#ff0000">P</font>HP 5.3.3-7</b> <br />
 
-			<!--
-				支援 <b class="positioning">Linux</b>, <b class="rotating">Windows</b>, <b class="scaling">Mac OSX</b>, BSD 以及 VMware ESX。
-				-->
 			</p>
     </div>
 
@@ -383,7 +385,7 @@
 			<br />
 			---- <br />
 
-			(若有使用 <a href="http://andrewdunkle.com/how-install-memcached-drupal-7" target="_blank">Memcache</a> 來加速 Drupal，請記得在建立好新站後重開此服務。)
+			(若有開 <a href="http://andrewdunkle.com/how-install-memcached-drupal-7" target="_blank" title="PHP Session 加速引擎之一">Memcache</a> 加速，請記得建立好新站以後需重開此服務。)
 		</q>
     </div>
     <!--
