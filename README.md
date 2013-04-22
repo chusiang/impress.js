@@ -25,13 +25,18 @@ impress.js #chusiang
 1. 藉由 Git 下載
 
 	$ git clone git://github.com/chusiang/impress.js.git
+	
 	$ cd impress.js/
+	
 	$ git checkout gh-pages
+	
 	$ firefox index.html
 
 2. 藉由 wget 下載
 
 	$ wget [https://github.com/chusiang/impress.js/archive/gh-pages.zip](https://github.com/chusiang/impress.js/archive/gh-pages.zip)
+	
 	$ unzip gh-pages.zip 
+	
 	$ firefox impress.js-gh-pages/index.html
 
