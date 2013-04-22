@@ -22,16 +22,14 @@ impress.js #chusiang
 
 若您想下載所有簡報並稍後觀看，您可以使用以下方式下載。
 
-藉由 Git 下載
-~~~~~~~~
+1. 藉由 Git 下載
 
 	$ git clone git://github.com/chusiang/impress.js.git
 	$ cd impress.js/
 	$ git checkout gh-pages
 	$ firefox index.html
 
-藉由 wget 下載
-~~~~~~~~
+2. 藉由 wget 下載
 
 	$ wget [https://github.com/chusiang/impress.js/archive/gh-pages.zip](https://github.com/chusiang/impress.js/archive/gh-pages.zip)
 	$ unzip gh-pages.zip 
