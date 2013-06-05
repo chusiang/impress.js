@@ -165,7 +165,11 @@
         
     -->
     <div id="bored" class="step" data-x="-1000" data-y="-1500" data-rotate="360" data-scale="6">
-		<p> <b>Multi-site</b> on Drupal 7<br />
+		<p>
+			<b>使用 multi-sites 技術快速建置多 Drupal 網站</b> <br />
+			<!--
+			<b>Multi-site</b> on Drupal 7<br />
+			-->
 			<br />
 			- 凍仁翔 <br />
 			- <a href="http://note.drx.tw" target="_blank">http://note.drx.tw</a> <br />
@@ -190,7 +194,7 @@
     -->
     <div class="step slide" data-x="0" data-y="-1500">
 		<q>
-			歡迎來到 Drupal 高雄小聚。 <br />
+			歡迎來到 Drupal 小聚。 <br />
 
 			 
 			<a href="http://drupaltaiwan.org/" target="_blank"><img src="images/2013-04-20-drupal-logo.png" align="left" alt="drupal logo" title="drupal logo" /></a> <br />
@@ -211,12 +215,11 @@
 		<q>
 			為何 Multi-site？ <br />
 
-			<br />
-
 			- <b>n</b> 隻一起跑的小豬 <b><font color="red">X</font></b> <br />
 			- <b>n</b> 隻住在一起的小豬 <b><font color="green">O</font></b> <br />
+			- 共用<strike>房子</strike><b>核心 (Core) </b>及<strike>傢俱</strike><b>模組 (Module) </b>的小豬 <b><font color="green">O</font></b> <br />
 
-			<br /> <br />
+			<br />
 
 			<center>
 				(實做出來的請舉著！)
@@ -228,12 +231,18 @@
 		<q>
 			<center>
 				<a href="http://note.drx.tw/" target="_blank"><img src="images/2013-04-20-multisite.jpg" width="500" alt="http://note.dtx.tw" title="http://note.drx.tw" /></a> <br />
-
-			<br />
-
-			(資料來源: <a href="http://goo.gl/sgv9S" target="_blank">http://goo.gl/sgv9S</a>)
 			</center>
 		</q>
+
+		<center>
+			(圖片來源: <a href="http://goo.gl/sgv9S" target="_blank">http://goo.gl/sgv9S</a>) <br />
+
+<br />
+
+			- 獨立的網站 (sites/a, sites/b)、資料庫 (db_a, db_b)。 <br />
+			- 共用元件 (sites/all)。 <br />
+		</center>
+
     </div>
 
     <!--
@@ -279,7 +288,7 @@
 
     <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
 		<p>
-			<b>觀念</b>
+			<b>重點</b>
 		</p>
     </div>
 
@@ -294,11 +303,7 @@
     -->
     <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
 		<p>
-			將多個 Domain name 指到同一個 Drupal，並設定對應的 Database, <a href="http://zh.wikipedia.org/wiki/%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA">Virtual host</a> [1] 即可。 <br />
-
-			<br />
-
-			[1] 讓同一台主機使用多個 Domain name 的技術。
+			將多個 Domain name 指到同一個 Drupal 目錄，並設定對應的 Database 及 <a href="http://zh.wikipedia.org/wiki/%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA">Virtual host</a> (讓同一個網頁伺服器使用多個 Domain name 的技術)。
 		</p>
     </div>
 
@@ -326,10 +331,10 @@
 			<p>
 				實作環境 (LAMP) <br />
 				<br />
-				&nbsp; <a href="http://wiki.debian.org/LaMp" target="_blank">Debian 6 (GNU/<font color="#ff0000">L</font>inux)</a> <br />
-				&nbsp; <b class="positioning"><font color="#ff0000">A</font>pache 2.2.16</b> <br />
-				&nbsp; <b class="rotating"><font color="#ff0000">M</font>ySQL 5.1.66</b> <br />
-				&nbsp; <b class="scaling"><font color="#ff0000">P</font>HP 5.3.3-7</b> <br />
+				&nbsp; <a href="http://wiki.debian.org/LaMp" target="_blank">Debian 7 (GNU/<font color="#ff0000">L</font>inux)</a> <br />
+				&nbsp; <b class="positioning"><font color="#ff0000">A</font>pache 2.2.22</b> <br />
+				&nbsp; <b class="rotating"><font color="#ff0000">M</font>ySQL 5.5.31</b> <br />
+				&nbsp; <b class="scaling"><font color="#ff0000">P</font>HP 5.4.4</b> <br />
 
 			</p>
     </div>
@@ -350,10 +355,10 @@
 		</p>
 			
 		<q>
-			- <a href="s1.pig.tw" target="_blank">小豬 1 號</a>	<br />
-			- <a href="s2.pig.tw" target="_blank">小豬 2 號</a> <br />
-			- ......
+			» <a href="s1.pig.tw" target="_blank">小豬 1 號</a>, <a href="s2.pig.tw" target="_blank">2 號</a>, <a href="s3.pig.tw" target="_blank">3 號</a> <br />
 		</q>
+		 <i>$ sed -i 's/s1/s2/g' s1.pig.tw</i> <br />
+		 <i>$ sed -i 's/s1/s3/g' s3.pig.tw</i>
     </div>
 
     <div id="one-more-thing" class="step" data-x="5700" data-y="6000" data-scale="2">
@@ -374,7 +379,7 @@
     -->
     <div id="its-in-3d" class="step" data-x="6200" data-y="6300" data-z="-50" data-rotate="360" data-scale="2">
 		<q>
-			此簡報使用 <a href="http://github.com/bartaz/impress.js" target="_blank">impress.js</a> <span class="noticed">製作</span>。 <br />
+			此簡報使用 <a href="http://chusiang.github.io/impress.js/" target="_blank">impress.js</a> <span class="noticed">製作</span>。 <br />
 <br />
 			<p align="right">The End</p>
 		</q>
